@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Portfólio</title>
+    <link rel="stylesheet" href="clara.css">
+</head>
+
+<body>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <header>
+        <div class="container">
+            <br><br>
+            <img src="../portfolio/sem fundo.png" class="logo" alt="Logo">
+            <h1 class="abertura">Portfólio de Fotos</h1>
+        </div>
+    </header>
+    <nav>
+        <a href="clara.html">Home</a>
+        <a href="fotos.html">Galeria</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+    <br><br><br><br>
+    <center>
+        <fieldset>
+        <form method="post" action="#">
+            <h3>Faça um orçamento sem compromisso</h3>
+            <label for="nome">Nome:</label>
+            <br>
+            <input type="text" name="nome" placeholder="Digite seu nome:" required>
+            <br>
+            <br>
+            <label for="nome">Telefone:</label>
+            <br>
+            <input type="text" name="nome" placeholder="Digite seu nome:" required>
+            <br>
+            <br>
+            <label for="nome">Mensagem:</label>
+            <br>
+            <textarea name="sugestao" style="resize: none" required="yes" rows="7" cols="50" placeholder="Digite sua mensagem:" required></textarea>
+            <br>
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+        </fieldset>
+        <br><br><br><br><br><br><br><br><br>
+        <footer>
+            <center>© 2024 Portfólio de Fotos - Todos os direitos reservados</center>
+        </footer>
+</body>
+
+</html>
