@@ -1,0 +1,151 @@
+.abertura {
+    color: white;
+    font-size: 3em;
+    font-family: helvetica;
+    margin: 0;
+    flex-grow: 1;
+    display: inline-block;
+    text-align: center;
+}
+
+
+header {
+    background-color: gray;
+    width: 100%; 
+    padding: 10px; 
+}
+
+.container {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start; 
+    max-width: 1000px; 
+    margin: 0 auto;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 0 30px;
+    display: inline-block;
+    text-align: center;
+    font-family: helvetica;
+}
+
+h3{
+    font-family: helvetica;
+    text-align: center;
+    color: rgb(8, 85, 227);
+    font-size: 2.5em;
+
+}
+.logo {
+    height: 90px; 
+    width: auto; 
+    margin-right: 20px;
+    margin: 0;  
+}
+
+nav {
+    display: flex; 
+    justify-content: center; 
+    margin: 0; 
+    background-color: rgb(8, 85, 227);
+    padding: 10px 0; 
+    width: 100%; 
+    transition: color 0.3s;
+    
+}
+
+a:active {
+    color: black; 
+}
+
+.home{
+    font-family: helvetica;
+    font-size: 1.5em;
+}
+
+.oi{
+    font-family: helvetica;
+    font-size: 4em;
+    color: rgb(8, 85, 227);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.clara{
+    height:500px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: gray;
+    width: 100%; 
+    padding: 30px;
+    color:white;
+    font-family: helvetica;
+    
+}
+
+.fotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0; 
+    transition: transform 0.3s;
+    
+}
+
+.fotos img {
+    height: 500px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+
+.fotos img:hover {
+    transform: scale(1.2); 
+}
+
+button {
+    border-radius: 10px; 
+    background-color: rgb(8, 85, 227); 
+    color: white; 
+    font-size: 1em; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    font-family: helvetica;
+}
+
+button:hover {
+    background-color: rgb(0, 60, 170); 
+}
+
+label {
+    font-size: 1.2em;
+    font-family: helvetica;
+    color:black;
+}
+
+textarea{
+    font-family: helvetica;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+input{
+    font-family: helvetica;
+    border-radius: 5px;
+    padding:5px;
+    font-size: 1em;
+}
+
+fieldset{
+    border-radius: 5px;
+    width: 500px;
+    color: lightgray
+}
